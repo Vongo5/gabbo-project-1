@@ -4,4 +4,4 @@ import '../scss/style.scss'
 
 
 // You can start coding your project here
-console.log('Welcome to Chuski templating starter kit!!');
+console.log('Welcome to Gabbo templating starter kit!!');
