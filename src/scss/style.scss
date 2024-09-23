@@ -17,42 +17,11 @@
 
 
 
- .testo-h1{
-
-      padding: 1rem;
-      margin: 1rem;
-      color: rgb(0, 0, 0);
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-size: 20px;
-}
+.sfondopag{
 
 
-.link{
+background-image: url( 'https://previews.123rf.com/images/witthaya/witthaya1707/witthaya170700051/82737968-disegni-e-dipinti-di-pareti-sui-muri-del-tempio-antico-egiziano.jpg')
 
-      margin-left: 88px;
-      color:rgb(234, 164, 26);
-}
-
-
-.card{
-
-      color: chocolate;margin-left: 5px;
-      font-family: cursive;display:flex;
-      color: black;
-      justify-content: safe center;
-      font-size: 18px;
-}
-
-.testo-h2{
-
-      font-size: 22px;color: peru;
-      margin-left: 2rem;
-      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.first-img{
-
-      margin-left: 18rem;
 }
 
 .testo-h11{
@@ -62,13 +31,61 @@
       margin: 1rem;
       color: rgb(0, 0, 0);
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-size: 10rem;
+      font-size: 6rem;
+      border-radius: 80px;
+      box-shadow: 8px 10px black
+}
+
+
+
+
+.testo-h1{
+
+      padding: 1rem;
+      margin: 1rem;
+      color: rgb(255, 255, 255);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 20px;
+      
+}
+
+
+.link{
+
+      margin-left: 88px;
+      color:rgb(255, 255, 255);
+}
+
+
+.card{
+
+      color: chocolate;margin-left: 5px;
+      font-family: cursive;display:flex;
+      color: rgb(255, 255, 255);
+      justify-content: safe center;
+      font-size: 18px;
+      float: left;
+
+}
+
+.testo-h2{
+
+      font-size: 22px;color: rgb(0, 0, 0);
+      margin-left: 2rem;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.first-img{
+
+      margin-left: 18rem;
 }
 
 
 .img-left{
 
       margin-left: 70rem;
+      height: 300px;
+      
 
 }
 
@@ -88,7 +105,7 @@
 
       width: 480px;
       margin-left: 220px;
-      height: 300px;
+      color: black;
 
 }
 
