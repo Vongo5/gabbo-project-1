@@ -16,6 +16,9 @@
 
 
 
+// TODO
+// - Riorganizzare gli scss in file separati 
+// - Rimuovere i CSS riguardanti il font in quanto gia' definiti in _typo.scss
 
 .sfondopag{
 
@@ -23,14 +26,14 @@
 background-image: url( 'https://previews.123rf.com/images/witthaya/witthaya1707/witthaya170700051/82737968-disegni-e-dipinti-di-pareti-sui-muri-del-tempio-antico-egiziano.jpg')
 
 }
-
+// Questi scss che riguardano il font possono essere spostati in typo.scss, il file e' gia'importato
 .testo-h11{
 
       background-color: khaki;
       padding: 1rem;
       margin: 1rem;
       color: rgb(0, 0, 0);
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; // questo font non e' importato e non puo funzionare senza import usa montserrat (il font e' gia' definito in _typo.scss e non serve importarne uno nuovo o redefinitrlo)
       font-size: 6rem;
       border-radius: 80px;
       box-shadow: 8px 10px black
@@ -44,7 +47,7 @@ background-image: url( 'https://previews.123rf.com/images/witthaya/witthaya1707/
       padding: 1rem;
       margin: 1rem;
       color: rgb(255, 255, 255);
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; // questo font non e' importato e non puo funzionare senza import usa montserrat (il font e' gia' definito in _typo.scss e non serve importarne uno nuovo o redefinitrlo)
       font-size: 20px;
       
 }
@@ -57,6 +60,7 @@ background-image: url( 'https://previews.123rf.com/images/witthaya/witthaya1707/
 }
 
 
+// dividi i css della card in un nuovo file scss e importalo in questo file come sopra
 .card{
 
       color: chocolate;margin-left: 5px;
@@ -72,7 +76,7 @@ background-image: url( 'https://previews.123rf.com/images/witthaya/witthaya1707/
 
       font-size: 22px;color: rgb(0, 0, 0);
       margin-left: 2rem;
-      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; // questo font non e' importato e non puo funzionare senza import usa montserrat (il font e' gia' definito in _typo.scss e non serve importarne uno nuovo o redefinitrlo)
 }
 
 .first-img{
@@ -96,7 +100,7 @@ background-image: url( 'https://previews.123rf.com/images/witthaya/witthaya1707/
       padding: 1rem;
       margin: 1rem;
       color: rgb(0, 0, 0);
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; // questo font non e' importato e non puo funzionare senza import usa montserrat (il font e' gia' definito in _typo.scss e non serve importarne uno nuovo o redefinitrlo)
       font-size: 10rem;
       margin-left: 8rem;
       }
